@@ -1,0 +1,33 @@
+{
+  "name": "nagbot",
+  "description": "send a message the user cant ignore",
+  "version": "0.0.0",
+  "author": "carrot",
+  "ava": {
+    "verbose": "true"
+  },
+  "bugs": "https://github.com/carrot/nagbot/issues",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "coveralls": "^2.11.12",
+    "nyc": "^8.1.0",
+    "snazzy": "^4.0.1",
+    "standard": "^7.1.2"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "homepage": "https://github.com/carrot/nagbot",
+  "license": "MIT",
+  "main": "lib",
+  "repository": "carrot/nagbot",
+  "scripts": {
+    "test": "nyc ava",
+    "lint": "standard | snazzy",
+    "coverage": "nyc ava && nyc report --reporter=html && open ./coverage/index.html",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "dependencies": {
+    "moment": "^2.15.1"
+  }
+}
