@@ -1,12 +1,12 @@
 {
-  "name": "nagbot",
+  "name": "slapp-nag",
   "description": "send a message the user cant ignore",
   "version": "0.0.0",
   "author": "carrot",
   "ava": {
     "verbose": "true"
   },
-  "bugs": "https://github.com/carrot/nagbot/issues",
+  "bugs": "https://github.com/carrot/slapp-nag/issues",
   "devDependencies": {
     "ava": "^0.16.0",
     "coveralls": "^2.11.12",
@@ -17,10 +17,10 @@
   "engines": {
     "node": ">= 6"
   },
-  "homepage": "https://github.com/carrot/nagbot",
+  "homepage": "https://github.com/carrot/slapp-nag",
   "license": "MIT",
   "main": "lib",
-  "repository": "carrot/nagbot",
+  "repository": "carrot/slapp-nag",
   "scripts": {
     "test": "nyc ava",
     "lint": "standard | snazzy",

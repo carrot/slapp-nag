@@ -1,6 +1,6 @@
-# Contributing to nagbot
+# Contributing to slapp-nag
 
-Hello there! First of all, thanks for being interested in nagbot and helping out. We all think you are awesome, and by contributing to open source projects, you are making the world a better place. That being said, there are a few ways to make the process of contributing code to nagbot smoother, detailed below:
+Hello there! First of all, thanks for being interested in slapp-nag and helping out. We all think you are awesome, and by contributing to open source projects, you are making the world a better place. That being said, there are a few ways to make the process of contributing code to slapp-nag smoother, detailed below:
 
 ### Filing Issues
 
