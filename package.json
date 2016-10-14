@@ -1,7 +1,7 @@
 {
   "name": "slapp-nag",
   "description": "send a message the user cant ignore",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "carrot",
   "ava": {
     "verbose": "true"
